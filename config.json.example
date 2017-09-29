@@ -1,0 +1,23 @@
+{
+  "darksky_api_key": "YOUR_API_KEY",
+  "admin_email": "admin@example.com",
+  "db": {
+    "host": "127.0.0.1:27017",
+    "database": "forecast"
+  },
+  "locations": {
+    "berlin_tempelhof": {
+      "name": "Berlin Tempelhofer Feld",
+      "lat": "52.476421",
+      "long": "13.395959",
+      "notice": "Windfinder: https://www.windfinder.com/report/tempelhof"
+    }
+  },
+  "recipients": [
+    {
+      "name": "Max Mustermann",
+      "email": "email@example.com",
+      "location": "berlin_tempelhof"
+    }
+  ]
+}
