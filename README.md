@@ -15,7 +15,7 @@ groundhandling at your groundhandling location. Some more links to forecasts are
 1. Copy config.json.example to config.json
 1. Get API key by registration at https://darksky.net/dev/register
 1. Modify config.json and set `darksky_api_key`
-1. Add cronjob `00 06 * * * /bin/ruby /path/to/fetch_forecast.rb`
+1. Add cronjob `00 06 * * * /bin/ruby /path/to/fetch_forecast.rb --persist`
 
 ## TODO
 

@@ -20,7 +20,7 @@ DEBUG = ARGV.include?('-d') || ARGV.include?('--debug')
 
 CONFIG = JSON.parse(File.read("config.json"), symbolize_names: true)
 
-ACTIVE_MONGO = ARGV.include?('--mongo')
+ACTIVE_MONGO = ARGV.include?('--persist')
 if ACTIVE_MONGO
   require 'mongo'
   Mongo::Logger.logger.level = Logger::WARN
